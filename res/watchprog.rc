@@ -1,0 +1,33 @@
+#include "resource.h"
+
+IDI_APP_ICON ICON "watchprog.ico"
+IDR_APP_FONT 10 "font.ttf"
+IDR_APP_MANIFEST RT_MANIFEST "watchprog.manifest"
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION 1,1,0,4
+PRODUCTVERSION 1,1,0,4
+FILEFLAGSMASK VS_FFI_FILEFLAGSMASK
+FILEFLAGS VS_FFI_FILEFLAGS
+FILEOS VS_FFI_OS_WIN32
+FILETYPE VS_FFI_FILETYPE_APP
+BEGIN
+    BLOCK STRINGFILEINFO_BLOCK
+    BEGIN
+        BLOCK STRINGTABLE_BLOCK
+        BEGIN
+            VALUE "CompanyName", "AlkaVile"
+            VALUE "FileDescription", "WatchProg"
+            VALUE "FileVersion", "1.1.0.4"
+            VALUE "InternalName", "WatchProg"
+            VALUE "LegalCopyright", "AlkaVile (C) 2026"
+            VALUE "OriginalFilename", "WatchProg.exe"
+            VALUE "ProductName", "WatchProg by AlkaVile"
+            VALUE "ProductVersion", "v1.01-beta.04"
+        END
+    END
+    BLOCK VARFILEINFO_BLOCK
+    BEGIN
+        VALUE "Translation", LANG_RU_RU, CP_UNICODE
+    END
+END
