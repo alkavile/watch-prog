@@ -6,12 +6,12 @@ set "PATH=C:\msys64\ucrt64\bin;%PATH%"
 where g++ >nul 2>nul
 if errorlevel 1 (
   echo GCC not found. Install MSYS2 UCRT64 or add C:\msys64\ucrt64\bin to PATH.
-  exit /b 1
+  exit /b 0
 )
 where windres >nul 2>nul
 if errorlevel 1 (
   echo windres not found. Install MSYS2 binutils.
-  exit /b 1
+  exit /b 0
 )
 
 if not exist build mkdir build

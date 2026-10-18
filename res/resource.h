@@ -2,7 +2,6 @@
 #define RESOURCE_H
 
 #define IDI_APP_ICON            101
-#define IDR_APP_FONT            102
 
 #define IDR_APP_MANIFEST        1
 #define RT_MANIFEST             24

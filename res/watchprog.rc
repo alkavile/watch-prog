@@ -1,7 +1,6 @@
 #include "resource.h"
 
 IDI_APP_ICON ICON "watchprog.ico"
-IDR_APP_FONT 10 "font.ttf"
 IDR_APP_MANIFEST RT_MANIFEST "watchprog.manifest"
 
 VS_VERSION_INFO VERSIONINFO
